@@ -1,4 +1,22 @@
-.input-textarea {
+header, 
+section {
+	margin-block-end: 3rem;
+}
+
+label:not(:first-of-type) {
+	display: inline-block;
+	margin-inline: 2rem;
+	margin-block: 1rem;
+}
+
+.textarea {
 	inline-size: 100%;
+	padding: 4px;
 	vertical-align: top;
+}
+
+.input-number {
+	inline-size: 6ch;
+	margin-inline-start: -1.5rem;
+	transform: translateY(-2px);
 }

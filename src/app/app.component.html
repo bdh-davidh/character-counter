@@ -4,21 +4,22 @@
 </header>
 <main>
   <section class="inputs">
-    <textarea id="spaces" type="text" class="input-textarea" rows="10">
-Start typing here (or paste your text)</textarea>
+    <textarea id="spaces" type="text" class="textarea" rows="10" placeholder="Start typing here (or paste your text)">
+</textarea
+    >
 
-<label for="excludeSpaces"
-      >Exclude Spaces
+    <label for="excludeSpaces">
       <input id="excludeSpaces" type="checkbox" class="input-checkbox" />
+      Exclude Spaces
     </label>
 
-    <label for="setLimit"
-      >Set Character Limit
+    <label for="setLimit">
       <input id="setLimit" type="checkbox" class="input-checkbox" />
+      Set Character Limit
     </label>
 
-    <label for="charLimit">Character Limit </label>
-    <input id="charLimit" type="number" class="input-numbber" />
+    <label class="visually-hidden" for="charLimit">Character Limit </label>
+    <input id="charLimit" type="number" class="input-number" />
 
     <p>Approximate Rreading time <output>0 minutes</output>.</p>
   </section>
@@ -27,11 +28,11 @@ Start typing here (or paste your text)</textarea>
     <div class="stats">
       <p><output class="characters">0</output> Total characters (no spaces).</p>
       <p><output class="words">0</output> Word Count.</p>
-      <p><output class="sentences">0</output> Total characters (no spaces).</p>
+      <p><output class="sentences">0</output> Sentence Count</p>
     </div>
+  </section>
 
-    <div class="denisty">
-      <h2>Letter Density</h2>
-    </div>
+  <section class="denisty">
+    <h2>Letter Density</h2>
   </section>
 </main>
